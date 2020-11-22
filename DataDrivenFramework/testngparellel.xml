@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test-Suite" parallel="classes" thread-count="2">
+<test name="mytest">
+<classes>
+<class name="com.testcases.LoginTC"/>
+<class name="com.testcases.AnyClass"/>
+</classes>
+</test>
+
+</suite>

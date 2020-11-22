@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test-Suite" parallel="methods" thread-count="3">
+<test name="mytest">
+<classes>
+<class name="com.testcases.LoginTC">
+<methods>
+<include name="LoginPagee"/>
+</methods>
+</class>
+<class name="com.testcases.AnyClass">
+<methods>
+<include name="loginmysite"/>
+</methods>
+</class>
+</classes>
+</test>
+
+</suite>
